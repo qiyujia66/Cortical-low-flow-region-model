@@ -49,7 +49,7 @@ ax.FontSize = 16;
 
 xs = rand(1, 5000)*L + 0;% rand*10 + 15;
 ys = rand(1, 5000)*L + 0; %rand*10 + 25;
-zs = rand(1, 5000)*Length + zmin;
+zs = rand(1, 5000)*Length + 0;
 XS = [xs', ys', zs'];
 
 % All sample connecting points
